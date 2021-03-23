@@ -1,2 +1,1 @@
-# temiz-altyapi
-temiz bir altyapı
+osuruk aga
