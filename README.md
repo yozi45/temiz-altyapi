@@ -1,1 +1,0 @@
-osuruk aga
