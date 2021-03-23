@@ -3,6 +3,7 @@ const client = new Discord.Client();
 const ayarlar = require('./ayarlar.json');
 const { Client, Util } = require('discord.js');
 require('./util/eventLoader.js')(client);
+const fs = require('fs');
 
 var prefix = ayarlar.prefix;
 
@@ -127,7 +128,7 @@ client.on('error', e => {
         }
       });
 
-      client.login(ayarlar.prefix);
+      client.login(ayarlar.token);
 
 
 
